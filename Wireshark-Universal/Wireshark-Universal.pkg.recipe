@@ -198,12 +198,12 @@ exit 0</string>
 						<string>org.wireshark.Wireshark.pkg</string>
 						<key>pkgdir</key>
 						<string>%RECIPE_CACHE_DIR%</string>
+						<key>scripts</key>
+						<string>%RECIPE_CACHE_DIR%/arm_scripts</string>
 					</dict>
 					<key>pkgname</key>
 					<string>%NAME%-Arm-%version%</string>
 				</dict>
-				<key>scripts</key>
-				<string>%RECIPE_CACHE_DIR%/arm_scripts</string>
 				<key>Processor</key>
 				<string>PkgCreator</string>
 			</dict>
